@@ -1,6 +1,5 @@
 var playlist ={artist: 'title'}
-funtion updatePlaylist(playlist, artistname, songTitle){
+funtion updatePlaylist(playlist, artistName, songTitle){
+return object.assign({playlist}, artistName,songTitle)
 
-  
 }
-
